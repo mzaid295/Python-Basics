@@ -1,0 +1,12 @@
+#Rational numbers are pair of integers p and q to represent a ratio as p/q. The q should not be 0
+#is the condition. You have to provide the self explanatory python example code as answer that
+#how can we use the rational number.
+class rationalNumber:
+    p = int(input("Enter the value of p:"))
+    q = int(input("Enter the value of Q: "))
+    if q == 0:
+        print("chutti kr")
+    else:
+        x = p/q
+    print(x)
+rationalNumber()
