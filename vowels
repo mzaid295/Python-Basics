@@ -1,7 +1,12 @@
 #Write function to return the count of vowels in a string passed as its only parameter.
-a = "zaid is a good boy"
-vowelcount = {}
-for vowel in "aeiou":
-    v = a.count(vowel)
-    vowelcount[vowel] = v
-print(vowelcount)
+def checkvowels():
+    # a = 
+    a = input("Enter the Alphabets: ")
+    vowelcount = {}
+    for vowel in "aeiou":
+        v = a.count(vowel)
+        vowelcount[vowel] = v
+    print(vowelcount)
+
+checkvowels()
+print(z)
