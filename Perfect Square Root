@@ -1,0 +1,10 @@
+# Write a function isPerfectSquare( n ) to return True or False depending parameter n is a perfect
+# square or not. Also, write verity of test cases.
+def isPerfectsquare():
+    x = int(input("Enter the valus:"))
+    root = x**(1/2)
+    if (int(root + 0.5) **2 == x):
+        print(x,"It is a perfect square root")
+    else:
+        print(x,"It is not a perfect square root")
+isPerfectsquare()
